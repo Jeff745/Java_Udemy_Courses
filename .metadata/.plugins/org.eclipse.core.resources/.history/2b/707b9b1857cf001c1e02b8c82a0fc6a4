@@ -1,0 +1,19 @@
+package academy.learningprogramming;
+
+public class Bank {
+	
+	private int account_number;
+	private double balance;
+	private String customer_name;
+	private String email;
+	private int phone_number;
+	
+	public int getAccountNumber()
+	{
+		return account_number;
+	}
+
+	
+
+
+}

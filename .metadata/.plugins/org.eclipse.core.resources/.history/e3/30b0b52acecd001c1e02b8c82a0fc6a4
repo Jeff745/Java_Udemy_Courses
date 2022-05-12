@@ -1,0 +1,21 @@
+package academy.learningprogramming;
+
+public class simpleCalculator 
+{
+	
+	public double firstNumber;
+	public double secondNumber;
+	
+	public double getFirstnumber()
+	{
+		return firstNumber;
+		
+	}
+	
+	public double getSecondnumber()
+	{
+		return secondNumber;
+	}
+
+
+}

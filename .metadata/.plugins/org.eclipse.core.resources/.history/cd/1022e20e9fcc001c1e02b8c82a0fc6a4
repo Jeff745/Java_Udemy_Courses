@@ -1,0 +1,10 @@
+package academy.learnprogramming;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Car porsche = new Car();//After create object based on template car, need to initialise it.
+		Car holden = new Car();
+		porsche.setModel("Carrera");//Car class inherited from base java class.
+	}
+}

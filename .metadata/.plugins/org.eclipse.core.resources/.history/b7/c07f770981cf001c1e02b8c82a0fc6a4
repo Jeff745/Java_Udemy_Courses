@@ -1,0 +1,89 @@
+package academy.learningprogramming;
+
+public class Bank {
+	
+	private int account_number;
+	private double balance;
+	private String customer_name;
+	private String email;
+	private int phone_number;
+	
+	public int getAccountNumber()
+	{
+		return account_number;
+	}
+	
+	public double getBalance() 
+	{
+		return balance;
+	}
+	
+	public String getCustomerName()
+	{
+		return customer_name;
+	}
+	
+
+	public String getEmail()
+	{
+		return email;
+	}
+	
+	public int getPhoneNumber()
+	{
+		return phone_number;
+	}
+
+	
+	
+	public void setCustomerName(String customer_name) 
+	{
+		this.customer_name=customer_name;
+	}
+	
+	public void setEmail(String email) 
+	{
+		this.email=email;
+		
+	}
+
+	public void setPhoneNumber(int phone_number) 
+	{
+		this.phone_number = phone_number;
+	}
+	
+	public void setBalance(double balance) 
+	{
+		this.balance=balance;
+		
+	}
+	
+	public void setAccountNumber(int account_number) 
+	{
+		this.account_number=account_number;
+		
+	}
+	
+	public double depositMoney(double balance, double new_deposit_amount)
+	{
+		balance= new_deposit_amount + balance;
+		return balance;
+	}
+	
+	public double withdrawMoney(double balance,double withdraw_amount)
+	{
+
+		if (balance < withdraw_amount)
+		{
+			balance= balance;
+		}
+		
+		else 
+		{
+			balance = balance - withdraw_amount;
+		}
+		
+		return balance;
+	}
+
+}

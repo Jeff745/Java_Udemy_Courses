@@ -1,0 +1,11 @@
+package academy.learnprogramming;
+
+public class Car {
+	
+	private int doors; //Private: Classes outside car class not allowed to access variables.
+	private int wheels;
+	public String model;
+	private String engine;
+	private String colour;
+
+}
